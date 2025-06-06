@@ -14,6 +14,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     runs-on: macos-latest
     env:
       MACOS_APP_RELEASE_PATH: build/macos/Build/Products/Release
